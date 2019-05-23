@@ -39,7 +39,8 @@ def printPlanetsData(chrt):
 
     print(''.join(out))
 
-fpath = "/Users/pablocc/Hors/Today.hor"
+#fpath = path.join(path.split(path.split(__file__)[0])[0],"Hors","Today.hor")
+fpath = path.join(path.split(path.split(__file__)[0])[0],"Hors","Morinus.hor")
 chrt = None
 
 try:

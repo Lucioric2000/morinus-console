@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import astrology
+from .. import astrology
+from .. import hours
 import swisseph
 import datetime
 import pytz
-import hours
 
 class DateTime:
     """Date and time of the event used for chart calculation."""
