@@ -1,6 +1,5 @@
-import chart
+from . import chart, util
 import math
-import util
 
 
 class Points:

@@ -1,12 +1,12 @@
 import math
-import astrology
-import houses
-import planets
-import chart
-import placspec
-import regiospec
-import util
 import swisseph
+from . import astrology
+from . import houses
+from . import planets
+from . import chart
+from . import placspec
+from . import regiospec
+from . import util
 
 
 class Fortune:

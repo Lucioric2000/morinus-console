@@ -1,7 +1,5 @@
 import math
-import astrology
-import houses
-import util
+from . import astrology, houses, util
 
 
 class RegiomontanianSpeculum:

@@ -1,7 +1,7 @@
-import astrology
-import chart
-import planets
-import util
+from . import astrology
+from . import chart
+from . import planets
+from . import util
 
 
 class EphemCalc:

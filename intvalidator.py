@@ -1,6 +1,6 @@
 import wx
 import string
-import mtexts
+from . import mtexts
 
 
 class IntValidator(wx.PyValidator):

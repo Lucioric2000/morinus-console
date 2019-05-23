@@ -1,4 +1,4 @@
-import astrology
+from . import astrology
 
 
 class Asteroid:

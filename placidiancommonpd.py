@@ -1,14 +1,14 @@
 import math
-import astrology
-import primdirs
-import planets
-import chart
-import fixstars
-import fortune
-import syzygy
-import secmotion
-import customerpd
-import util
+from . import astrology
+from . import primdirs
+from . import planets
+from . import chart
+from . import fixstars
+from . import fortune
+from . import syzygy
+from . import secmotion
+from . import customerpd
+from . import util
 
 
 class PlacidianCommonPD(primdirs.PrimDirs):

@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-import mtexts
+from . import mtexts
 
 # ##################################
 # Roberto V 7.3.0

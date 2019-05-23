@@ -1,8 +1,8 @@
-import astrology
-import chart
-import fortune
-import planets
-import util
+from . import astrology
+from . import chart
+from . import fortune
+from . import planets
+from . import util
 
 
 class Transit:

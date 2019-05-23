@@ -2,18 +2,9 @@
 
 import math
 import datetime
-import astrology
-import houses
-import chart
-import fortune
-import syzygy
-import planets
-import fixstars
-import transits
-import secmotion
-import customerpd
-import mtexts
-import util
+from . import astrology, houses, chart, fortune
+from . import syzygy, planets, fixstars, transits
+from . import secmotion, customerpd, mtexts, util
 
 
 class AbortPD:

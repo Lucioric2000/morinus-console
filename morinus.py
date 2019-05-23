@@ -21,8 +21,8 @@
 import os
 import sys
 import wx
-import options
-import mtexts
+from . import options
+from . import mtexts
 import morin
 
 

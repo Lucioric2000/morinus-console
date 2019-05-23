@@ -1,8 +1,8 @@
 import math
-import astrology
-import houses
-import util
 import swisseph
+from . import astrology
+from . import houses
+from . import util
 
 
 class Planet:

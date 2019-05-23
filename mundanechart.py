@@ -1,15 +1,9 @@
 import wx
 import Image, ImageDraw, ImageFont
 import math
-import astrology
-import chart, houses, planets, fortune
-import placspec
-import regiospec
-import primdirs
-import options
-import common
-import util
-import mtexts
+from . import astrology, placspec, regiospec, primdirs
+from . import chart, houses, planets, fortune
+from . import options, common, util, mtexts
 
 
 class MundaneChart:

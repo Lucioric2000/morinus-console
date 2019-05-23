@@ -1,5 +1,5 @@
 import os
-import mtexts
+from . import mtexts
 
 class Common:
 	def __init__(self):

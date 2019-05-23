@@ -1,8 +1,5 @@
 import math
-import astrology
-import chart
-import houses
-import util
+from . import astrology, chart, houses, util
 
 
 class MunProfections:

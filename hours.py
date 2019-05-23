@@ -1,6 +1,6 @@
-import astrology
+from . import astrology
+from . import util
 import swisseph
-import util
 import sys
 
 

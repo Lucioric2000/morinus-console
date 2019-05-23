@@ -1,4 +1,4 @@
-import astrology
+from . import astrology
 import swisseph
 import sys
 

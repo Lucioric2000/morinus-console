@@ -1,8 +1,8 @@
 import math
-import astrology
-import houses
-import chart
-import util
+from . import astrology
+from . import houses
+from . import chart
+from . import util
 
 class PDsInChart:
 

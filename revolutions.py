@@ -1,7 +1,7 @@
-import astrology
-import mtexts
-import transits
-import util
+from . import astrology
+from . import mtexts
+from . import transits
+from . import util
 
 
 class Revolutions:

@@ -1,6 +1,5 @@
-import planets
+from . import planets, util
 import math
-import util
 
 class Mid:
 	def __init__(self, p1, p2, m, lat):

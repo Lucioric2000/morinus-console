@@ -4,27 +4,27 @@ from . import event
 import pytz
 import math
 import datetime
-import astrology
 import swisseph
-import planets
-import houses
-import fixstars
-import midpoints
-import riseset
-import zodpars
-import antzodpars
-import options
-import hours
-import almutens
-import fortune
-import firdaria
-import munfortune
-import arabicparts
-import antiscia
-import customerpd
-import syzygy
-import util
-import mtexts
+from .. import astrology
+from .. import planets
+from .. import houses
+from .. import fixstars
+from .. import midpoints
+from .. import riseset
+from .. import zodpars
+from .. import antzodpars
+from .. import options
+from .. import hours
+from .. import almutens
+from .. import fortune
+from .. import firdaria
+from .. import munfortune
+from .. import arabicparts
+from .. import antiscia
+from .. import customerpd
+from .. import syzygy
+from .. import util
+from .. import mtexts
 import sys
 
 # if long is 'E' or/and lat is 'S' -> negate value

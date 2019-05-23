@@ -1,13 +1,13 @@
 import math
-import astrology
-import primdirs
-import regiocampbasepd
-import planets
-import chart
-import fortune
-import houses
-import secmotion
-import util
+from . import astrology
+from . import primdirs
+from . import regiocampbasepd
+from . import planets
+from . import chart
+from . import fortune
+from . import houses
+from . import secmotion
+from . import util
 
 
 class RegiomontanPD(regiocampbasepd.RegioCampBasePD):

@@ -1,10 +1,10 @@
-import astrology
-import fortune
-import houses
+from . import astrology
+from . import fortune
+from . import houses
+from . import planets
+from . import util
 import math
-import planets
 import swisseph
-import util
 
 
 class Antiscion:

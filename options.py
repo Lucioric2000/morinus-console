@@ -1,9 +1,7 @@
 import os
 import pickle
 import copy
-import chart
-import primdirs
-import mtexts
+from . import chart, primdirs, mtexts
 
 
 class Options:

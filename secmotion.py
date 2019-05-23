@@ -1,8 +1,8 @@
 import math
-import astrology
-import chart#Time
-import planets
-import util
+from . import astrology
+from . import chart#Time
+from . import planets
+from . import util
 
 
 class SecMotion:

@@ -1,11 +1,11 @@
 import math
 import wx
-import astrology
-import chart
-import planets
-import rangechecker
 import findtimedlg
-import util
+from . import astrology
+from . import chart
+from . import planets
+from . import rangechecker
+from . import util
 
 
 class FindTime:

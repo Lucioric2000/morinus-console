@@ -1,6 +1,6 @@
-import astrology
-import planets
-import zodparsbase
+from . import astrology
+from . import planets
+from . import zodparsbase
 
 
 class AntZodPars(zodparsbase.ZodParsBase):

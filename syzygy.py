@@ -1,9 +1,9 @@
-import astrology
-import chart
-import houses
-import planets
-import options
-import util
+from . import astrology
+from . import chart
+from . import houses
+from . import planets
+from . import options
+from . import util
 import swisseph
 
 

@@ -1,7 +1,4 @@
-import astrology
-import chart
-import mtexts
-import util
+from . import astrology, chart, mtext, util
 
 
 class SecDir:

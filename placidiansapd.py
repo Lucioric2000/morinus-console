@@ -1,17 +1,17 @@
 import math
-import astrology
-import primdirs
-import placidiancommonpd
-import planets
-import houses
-import chart
-import fixstars
-import fortune
-import syzygy
-import placspec
-import secmotion
-import customerpd
-import util
+from . import astrology
+from . import primdirs
+from . import placidiancommonpd
+from . import planets
+from . import houses
+from . import chart
+from . import fixstars
+from . import fortune
+from . import syzygy
+from . import placspec
+from . import secmotion
+from . import customerpd
+from . import util
 
 
 class PlacidianSAPD(placidiancommonpd.PlacidianCommonPD):

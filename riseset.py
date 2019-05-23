@@ -1,11 +1,7 @@
-import astrology
-import chart
+from . import astrology, chart, mtexts, planets, util
 import math
-import mtexts
-import planets
 import swisseph
 import sys
-import util
 
 
 class RiseSet:

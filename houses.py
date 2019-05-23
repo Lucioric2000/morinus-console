@@ -1,9 +1,9 @@
 import math
-import astrology
-import chart
-import util
-import swisseph
 import sys
+import swisseph
+from . import astrology
+from . import chart
+from . import util
 
 
 class Houses:

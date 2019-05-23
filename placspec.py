@@ -1,5 +1,5 @@
 import math
-import houses
+from . import houses
 
 
 class PlacidianSpeculum:

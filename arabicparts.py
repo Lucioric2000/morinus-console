@@ -1,11 +1,11 @@
 import math
-import astrology
-import houses
-import planets
-import fortune
-import chart
-import mtexts
-import util
+from . import astrology
+from . import houses
+from . import planets
+from . import fortune
+from . import chart
+from . import mtexts
+from . import util
 
 
 class ArabicParts:

@@ -1,6 +1,6 @@
-import astrology
-import chart
-import util
+from . import astrology
+from . import chart
+from . import util
 
 
 class Profections:

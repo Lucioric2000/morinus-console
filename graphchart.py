@@ -1,12 +1,12 @@
 import Image, ImageDraw, ImageFont
 import math
-import astrology
-import chart, houses, planets, fortune
-import fixstars
-import options
-import common
-import util
-import mtexts
+from . import astrology
+from . import chart, houses, planets, fortune
+from . import fixstars
+from . import options
+from . import common
+from . import util
+from . import mtexts
 
 
 class GraphChart:

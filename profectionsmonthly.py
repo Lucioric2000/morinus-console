@@ -1,7 +1,4 @@
-import astrology
-import chart
-import util
-import mtexts
+from . import astrology, chart, util, mtexts
 
 
 class ProfectionsMonthly:

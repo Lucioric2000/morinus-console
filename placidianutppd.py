@@ -1,16 +1,16 @@
-import math
-import astrology
-import primdirs
-import placidiancommonpd
-import planets
-import houses
-import chart
-import fortune
-import syzygy
-import fixstars
-import secmotion
-import customerpd
-import util
+from . import math
+from . import astrology
+from . import primdirs
+from . import placidiancommonpd
+from . import planets
+from . import houses
+from . import chart
+from . import fortune
+from . import syzygy
+from . import fixstars
+from . import secmotion
+from . import customerpd
+from . import util
 
 
 #The UTP is zodiacal only.

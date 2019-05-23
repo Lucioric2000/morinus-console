@@ -1,12 +1,12 @@
-import arabicparts
-import astrology
-import chart
+from . import arabicparts
+from . import astrology
+from . import chart
+from . import fortune
+from . import houses
+from . import planets
+from . import util
 import copy
-import fortune
-import houses
-import planets
 import sys
-import util
 
 
 class Essentials:

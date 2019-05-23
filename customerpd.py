@@ -1,7 +1,7 @@
 import math
-import astrology
-import houses
-import util
+from . import astrology
+from . import houses
+from . import util
 
 
 class CustomerPD:

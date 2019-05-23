@@ -1,15 +1,7 @@
 import wx
 import os
-import astrology
-import houses
-import planets
-import chart
-import fortune
-import common
-import commonwnd
+from . import astrology, houses, planets, chart, fortune, common, commonwnd, util, mtexts
 import Image, ImageDraw, ImageFont
-import util
-import mtexts
 
 
 class SquareChart:

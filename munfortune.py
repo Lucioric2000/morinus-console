@@ -1,10 +1,10 @@
 import math
-import astrology
-import houses
-import planets
-import placspec
-import util
 import swisseph
+from . import astrology
+from . import houses
+from . import planets
+from . import placspec
+from . import util
 
 
 class MundaneFortune:
