@@ -6,18 +6,16 @@ sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 
 from inspect import getmembers
 from pprint import pprint
-from printr import printr
-import astrology
-import chart
-import options
 import pickle
-import pickle
-import planets
+from . printr import printr
 import pprint
 import swisseph
-import transits
-import transits
-import util
+from .. import astrology
+from .. import chart
+from .. import options
+from .. import planets
+from .. import transits
+from .. import util
 
 def printPlanetsData(chrt):
     out = []

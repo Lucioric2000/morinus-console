@@ -6,17 +6,16 @@ sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
 
 from inspect import getmembers
 from pprint import pprint
-from sys import exit
-import astrology
-import chart
-import options
 import pickle
-import planets
 import swisseph
 import sys
-import transits
-import transits
-import util
+from sys import exit
+from .. import astrology
+from .. import chart
+from .. import options
+from .. import planets
+from .. import transits
+from .. import util
 
 eclipses_cache = {}
 

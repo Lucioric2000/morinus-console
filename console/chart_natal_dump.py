@@ -7,20 +7,19 @@ import sys
 sys.path.append("..")
 
 import os
-import swisseph
-import astrology
-import chart
 import csv
-import houses
-import mtexts
-import options
-import options
-import pickle
-import planets
 import sys
 import time
-import transits
-import util
+import pickle
+import swisseph
+from .. import astrology
+from .. import chart
+from .. import houses
+from .. import mtexts
+from .. import options
+from .. import planets
+from .. import transits
+from .. import util
 from inspect import getmembers
 from pprint import pprint
 from sys import exit

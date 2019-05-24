@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
-import astrology
-import chart
 import pickle
-import options
-import transits
-import util
+from .. import astrology
+from .. import chart
+from .. import options
+from .. import transits
+from .. import util
 from inspect import getmembers
 from pprint import pprint
-from printr import printr
+from . printr import printr
 
 fpath = "/Users/pablocc/Hors/EUR born.hor"
 

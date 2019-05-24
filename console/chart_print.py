@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 
-import astrology
-import chart
 import csv
-import houses
 import pickle
-import planets
 import pprint
-import options
-import transits
-import pickle
-import util
 import time
-import transits
+from .. import astrology
+from .. import chart
+from .. import houses
+from .. import planets
+from .. import options
+from .. import transits
+from .. import pickle
+from .. import util
+from .. import transits
 from inspect import getmembers
 from pprint import pprint
-from printr import printr
+from .printr import printr
 from sys import exit
 
 def printPlanetsData(chrt):

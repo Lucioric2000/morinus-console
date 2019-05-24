@@ -4,14 +4,14 @@ from datetime import datetime
 from inspect import getmembers
 from optparse import OptionParser
 from pprint import pprint
-from printr import printr
-import astrology
-import chart
-import options
+from .printr import printr
 import pickle
-import placedb
-import transits
-import util
+from .. import astrology
+from .. import chart
+from .. import options
+from .. import placedb
+from .. import transits
+from .. import util
 
 def printTransits(ls, fh, aspecting_planet = -1, aspected_planet = -1):
     planets = ('SU', 'MO', 'ME', 'VE', 'MA', 'JU', 'SA', 'UR', 'NE', 'PL')
